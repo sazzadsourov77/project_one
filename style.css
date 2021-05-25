@@ -1,0 +1,48 @@
+ body{
+ 	margin: 0;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	height: 100vh
+ }
+
+
+
+.sprites{
+	border: 1px solid red;
+	width: 100px;
+	height: 98px;
+	background: url(sprites.png);
+	background-position: 0px 0px;
+	transition: 1s;
+}
+
+.sprites:hover{
+	background-position: 0px -98px;
+}
+
+.sprites-2{
+	border: 1px solid red;
+	width: 100px;
+	height: 98px;
+	background: url(sprites.png);
+	background-position: -98px 0px;
+	transition: 1s;
+}
+.sprites-2:hover{
+	background-position: -98px -98px;
+}
+
+
+.sprites-3{
+	border: 1px solid red;
+	width: 100px;
+	height: 98px;
+	background: url(sprites.png) no-repeat;
+	background-position: -198px 0px;
+	transition: 1s;
+}
+.sprites-3:hover{
+	background-position: -198px -98px;
+}
+
